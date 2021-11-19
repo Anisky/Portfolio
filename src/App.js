@@ -2,13 +2,26 @@ import logo from './logo.svg';
 import './App.css';
 import Contact from './pages/contact/Contact';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
-import { Home } from './pages/home/Home';
+import  Home  from './pages/home/Home';
+import About from './pages/about/About';
 
 function App() {
   const routes=[
+    { 
+      route:"/",
+      page:<Home /> ,
+      exact : true,
+      key:0
+    },
+    { 
+      route:"/about",
+      page:<About /> ,
+      exact : true,
+      key:1
+    },
     {
       route:"/contact",
-      page:Contact ,
+      page:<Contact />,
       exact : true,
       key:5
     },
@@ -17,7 +30,7 @@ function App() {
 
 
   const displayContent = ()=>{
-    return routes.map((el)=>< Route key={el.key} path={el.route} component={el.page} exact = {el.exact}/>)
+    return routes.map((el)=>< Route key={el.key} path={el.route} element={el.page} exact = {el.exact}/>)
   } 
   return (
     
@@ -25,9 +38,8 @@ function App() {
 
           <Router>
             <Routes>
-              
-            <Route path="/" exact element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
+            
+            {displayContent()}
 
             </Routes>
           </Router>

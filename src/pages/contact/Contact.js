@@ -1,16 +1,13 @@
 import React from 'react'
+import { Navbar } from '../../components/Navbar';
+import { PageTitle } from '../../components/PageTitle';
+import { SpecialBtn } from '../../components/SpecialBtn';
 import './Contact.css'
 const Contact = () => {
     return (
         <div className="contact-container">
-
-            <div className="title-container">
-                <h1 className="ttitle">
-                    GET IN 
-                    <span> TOUCH</span>
-                </h1>
-                <h1 className="title-bg">CONTACT</h1>
-            </div>
+            <Navbar />
+            <PageTitle ttl1={'get in'} ttl2 ={'touch'} ttl3={'contact'} />
 
             <div className="body-container">
                 <div className="p-info-container">
@@ -100,13 +97,7 @@ const Contact = () => {
 
                             </div>
                         </div>
-                        <button className="sub-btn button is-rounded">
-                            <span className="btn-text ">SEND MESSAGE</span>
-                            <span className="icon btn-icon ">
-                                <i class="fas fa-paper-plane"></i>
-                            </span>
-                            
-                        </button>
+                        <SpecialBtn content={'send message'} iconClass={"fas fa-paper-plane"} />
                         
 
 
