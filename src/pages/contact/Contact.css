@@ -1,0 +1,213 @@
+.contact-container{
+   display: flex;
+   flex-direction: column;
+   width: 85%;
+   min-height: 100vh;
+   margin: 0 auto;
+    
+}
+
+.title-container{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 80px;
+    text-align: center;
+
+
+}
+.title-container .ttitle{
+    display: block;
+    color: white;
+    font-size: 56px;
+    font-weight: 900;
+}
+.title-container .ttitle span{
+ color: var(--orange);
+}
+.title-container .ttitle::after{
+            
+}
+.title-bg{
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: .7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: hsla(0,0%,100%,.07);
+
+            
+    
+}
+.body-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+.p-info-container{
+    width: 35%;
+    color: white;
+    
+}
+.p-info-container h3{
+    font-size: 2em;
+    font-weight: 800 !important;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.para-info-container{
+    margin: 16px 0;
+    font-size: 1em;
+
+    
+}
+
+.s-container{
+    display: flex;
+    margin: 25px 0;
+    
+}
+.s-content{
+    margin: 0 20px;
+}
+.s-content h4{
+    color: rgb(162, 165, 168);
+    font-weight: 600;
+}
+.s-content p{
+    font-weight: 400 !important;
+}
+.social-media{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:20px ;
+    
+}
+.social-media a{
+    margin-right:20px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.social-media a:hover{
+    
+    background-color: var(--orange);
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+.social-media .fab{
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+.social-media .fab:hover{
+    color: var(--primaryDarkblue);
+}
+.form-container{
+    width: 60%;
+   
+
+
+}
+.form-container .info{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.form-container .control{
+    margin-bottom: 30px;
+}
+.form-container input{
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400 !important;
+    background-color: var(--blue);
+    border-color: var(--blue);
+    border-width: 2px;
+    color: white;
+}
+.form-container input:focus{
+    border-color: orange;
+}
+.form-container input::placeholder{
+    color:rgb(179, 181, 184);
+}
+.form-container .info .control{
+    width: 45%;
+}
+.form-container textarea{
+    border-radius: 30px;
+    height: 30vh;
+    background-color: var(--blue);
+    border-color: var(--blue);
+    border-width: 2px;
+}
+.form-container textarea::placeholder{
+    color:rgb(179, 181, 184);
+}
+.form-container textarea:focus{
+    border-color: var(--orange);
+}
+.form-container .sub-btn{
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    border-color: var(--orange);
+    background-color: transparent;
+    color: white;
+    text-overflow: ellipsis;
+    transition: all .25s ease-in-out;
+    border-width: 2px;
+}
+.btn-text{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    transition: all .3s ease-out;
+    padding-right: 25px;
+}
+.btn-icon{
+    background-color: var(--orange);
+    
+    right: 13px;
+    top: -1px;
+    position: absolute;
+    width: 56px;
+    height: 56x;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+   
+}
+.form-container .sub-btn .fas{
+    color: white;
+    border-radius: 50%;
+    background-color: var(--orange);
+
+}
+
+.form-container .sub-btn::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--orange);
+    transform: translateX(100%);
+    transition: all .3s ease-out;
+    border-color: var(--orange);
+}
+.form-container .sub-btn:hover:before {
+    transform: translateX(0);
+    transition: all .3s ease-out;
+}
