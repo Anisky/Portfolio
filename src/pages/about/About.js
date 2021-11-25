@@ -27,6 +27,7 @@ const About = () => {
         {skill : 'C++',percentage: 85},
         {skill : 'Python',percentage: 85},
         {skill : 'Vhdl',percentage: 85},
+        {skill : 'SQl',percentage: 85},
 
 
         

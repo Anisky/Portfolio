@@ -62,7 +62,10 @@
      opacity: 0.8;   
      font-weight: 400;
  }
-
+ .row3{
+     
+     margin: 20px auto;
+ }
  .info-list{
      font-weight: 600 !important;
      font-size: 16px;
@@ -117,6 +120,39 @@
 
  @media screen and (max-width:1200px){
     
+    .row2{
+        width: 100%;
+    }
+    .row ul{
+        display: block;
+        width: 50%;
+    }
+    .row2 li{
+        flex-direction: column;
+        
+    }
+ }
+ @media screen and (max-width:950px){
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-list{
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .stats   {
+        width: 100%;
+    }
+    .row2 li{
+        flex-direction: row;
+        
+    }
+ }
+ @media screen and (max-width:600px){
+    .row3{
+        text-align: center;
+    }
     .row2{
         width: 100%;
     }

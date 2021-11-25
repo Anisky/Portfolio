@@ -38,6 +38,9 @@
     height: 100vh;
     z-index: 2;
 }
+.prof-pic{
+    display: none;
+}
 .figure-cont{
     width: 90%;
     height: 100%;
@@ -67,7 +70,7 @@
     
 }
 .job-title{
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     font-weight: 800;
     color: var(--orange);
@@ -87,4 +90,41 @@
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 2em;
+}
+@media screen and (max-width:950px){
+    .home-container{
+        overflow: unset;
+        width: 100%;
+        height: unset;
+        min-height:100vh;
+        max-height: unset;
+        animation: pageup 1s ease-out forwards;
+    }
+    .color-block{
+        display: none;
+    }
+    .home-details-container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .p-pic-container{
+        display: none;
+    }
+    .figure-cont{
+        display: none;
+    }
+    .prof-pic{
+        display: block;
+        border-radius: 50%;
+        width: 270px;
+        height: 270px;
+        border: 4px solid #252525;
+        margin: 20px auto 25px;
+    }
+    .info-container{
+        height: auto;
+        width: 90%;
+        text-align: center;
+    }
+
 }
