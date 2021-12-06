@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Anisky.github.io/Portfolio",
+  
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +15,12 @@
     "react-scripts": "4.0.3",
     "reactjs-percentage-circle": "^1.0.0",
     "redux": "^4.1.2",
+    "vercel": "^23.1.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy":"gh-pages -d build",
+    
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
