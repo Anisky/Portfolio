@@ -1,0 +1,123 @@
+.prjs-grid{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+  }
+  .prj-wrap{
+    overflow: hidden;
+    height: 200px;
+    /* height: 0;
+    padding: 70% 0; */
+    /* padding controls height, will always be perfectly square regardless of width */
+    position: relative;
+    opacity: 0.8;
+    border-radius: 15px;
+  }
+  .prj-wrap img{
+    /* min-width: 100%;
+    min-height: 100%;
+    max-width: 150%; */
+    max-height: 100%;
+    width: 100%;
+    z-index: 5;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+  }
+  .p::after{
+    background-color: var(--orange);
+    animation: fadeUp 0.5s ease-out forwards;
+  }
+  .p:hover::after{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: fadeDown 0.5s ease-out forwards;
+  }
+  .p1::after{
+    content: "PrimRecruit";
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: fadeUp 0.5s ease-out forwards;
+
+  }
+  .p1:hover::after{
+
+      content: "PrimRecruit";
+      animation: fadeDown 0.5s ease-out forwards;
+  }
+  .p2::after{
+    content: "BioGardX";
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: fadeUp 0.5s ease-out forwards;
+
+  }
+  .p2:hover::after{
+
+      content: "BioGardX";
+      animation: fadeDown 0.5s ease-out forwards;
+  }.p3::after{
+    content: "Queue Management System";
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: fadeUp 0.5s ease-out forwards;
+
+  }
+  .p3:hover::after{
+
+      content: "Queue Management System";
+      animation: fadeDown 0.5s ease-out forwards;
+  }.p4::after{
+    content: "Garduino";
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: fadeUp 0.5s ease-out forwards;
+
+  }
+  .p4:hover::after{
+
+      content: "Garduino";
+      animation: fadeDown 0.5s ease-out forwards;
+  }
+  @media screen and (max-width : 900px)  {
+    .prjs-grid{
+        margin: 100px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+      }
+  }

@@ -1,0 +1,25 @@
+.portfolio-container{
+   
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    min-height: 100vh;
+    margin: 0 auto;
+    animation: pageup 1s ease-out forwards;
+    
+    
+     
+ }
+ .portfolio-container::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--blue);
+  z-index: 5;
+  animation: fade 1s ease-in forwards 0.25s;
+ 
+ }
+ 

@@ -24,15 +24,7 @@
 }
 
 
-.title-container{
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    padding: 60px;
-    text-align: center;
-    
 
-}
 
 .body-container{
     display: flex;
@@ -200,4 +192,25 @@
 .form-container .sub-btn:hover:before {
     transform: translateX(0);
     transition: all .3s ease-out;
+}
+
+
+@media screen and (max-width : 1000px)  {
+    .body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        
+    }
+    .p-info-container{
+        width: 100%;        
+    }
+    .form-container{
+        margin: 2em 0;
+        width: 100%;
+    }
+    .form-container .info .control{
+        width: 100%;
+    }
 }

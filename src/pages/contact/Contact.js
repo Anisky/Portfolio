@@ -23,7 +23,7 @@ const Contact = () => {
                     <div className="s-content">
                         <h4>ADDRESS POINT</h4>
                         <p>
-                            123 streat , lskjd , lskjd 
+                            Diera, Dubai , United States of Emirates 
                         </p>
 
                     </div>
@@ -47,26 +47,26 @@ const Contact = () => {
                     <div className="s-content">
                         <h4>CALL ME</h4>
                         <p>
-                        <a href="tel:+213657389613" style={{color: 'white'}}>+213 657 389 613</a>
+                        <a href="tel:+971525736347" style={{color: 'white'}}>+971525736347</a>
                         </p>
 
                     </div>
                     </div> 
                      
                 <div className="social-media">
-                    <a href='www.facebook.com'>
+                    <a href='https://www.linkedin.com/in/anis-slimatni/'>
                     <span className="icon is-large">
                         <i className="fab fa-lg fa-linkedin-in"  ></i>
                         </span>
                     </a>
-                    <a href='www.facebook.com'>
+                    <a href='https://wa.me/971525736347'>
                     <span className="icon is-large">
-                            <i className="fab fa-github-alt "  ></i>
+                            <i className="fab fa-whatsapp"  ></i>
                         </span>
                     </a>     
                     <a href='www.facebook.com'>
                     <span className="icon is-large">
-                            <i className="fab fa-lg fa-facebook " ></i>
+                            <i className="fab fa-github " ></i>
                         </span>
                     </a>    
                        
@@ -81,11 +81,11 @@ const Contact = () => {
                             <div className="info">
                                 <div className="control">
                                         <input className="input is-rounded " type="text" placeholder="YOUR NAME" required/>
-                                        <p class="help is-danger">This email is invalid</p>
+                                        {/* <p class="help is-danger">This email is invalid</p> */}
                                 </div>
                                 <div className="control">
                                         <input className="input is-rounded " type="eamil" placeholder="YOUR EMAIL" required />
-                                        <p class="help is-danger">This email is invalid</p>
+                                        {/* <p class="help is-danger">This email is invalid</p> */}
                             </div>
                             </div>
                            

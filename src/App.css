@@ -11,7 +11,7 @@ p{
 }
 :root{
   --primaryDarkblue : #023047;
-  --secondaryBlue:#0e76a7;
+  --secondaryBlue:#376b8c;
   --blue:#275775;
   --yellow:#ffb703;
   --orange:#fb8500;
@@ -43,6 +43,29 @@ p{
     top: 100%;
     opacity: 0;
     z-index: -2;
+    }
+
+}
+@keyframes fadeDown {
+  0% {
+    padding-top: 20%;
+    opacity: 0;
+    }
+  100% {
+    padding-top: 23%;
+    opacity: 1;
+    }
+
+}
+@keyframes fadeUp {
+  0% {
+    padding-top: 23%;
+    opacity: 1;
+    
+    }
+  100% {
+    padding-top: 20%;
+    opacity: 0;
     }
 
 }

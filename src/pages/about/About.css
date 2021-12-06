@@ -61,6 +61,7 @@
  .row2 li h2{
      opacity: 0.8;   
      font-weight: 400;
+     word-wrap: break-word;
  }
  .row3{
      

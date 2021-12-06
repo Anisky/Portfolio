@@ -37,6 +37,9 @@
 .navbar-m li:hover{
     background-color: var(--orange);
 }
+.navbar-m li a:hover{
+    background-color: var(--orange);
+}
 .navbar-m li h1{
     display: flex;
     align-items: center;
@@ -65,4 +68,38 @@ h1 i {
     text-align: center;
     border: 30px;
     
+}
+@media screen and (max-width : 1000px)  {
+    .navbar-m{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        transform: none;
+        padding: 10px 0;
+
+        z-index: 10;
+        background-color: var(--blue);
+        
+    }
+    .navbar-m ul {
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .navbar-m li{
+        
+        margin: 0 1em;
+       
+    }
+    .navbar-m li h1{
+        display: none;
+    }
+    .navbar-m a{
+        background-color: var(--secondaryBlue);
+    }
 }

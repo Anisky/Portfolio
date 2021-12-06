@@ -19,8 +19,10 @@ export const Navbar = () => {
                     </Link>
                 </li>
                 <li>
+                    <Link to = "/portfolio">
                     <i className="fas fa-briefcase"></i>
                     <h1>portfolio <i className="fas fa-briefcase"></i></h1>
+                    </Link>
                     </li>
                 <li>
                     <Link to = "/contact">
