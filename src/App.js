@@ -4,6 +4,7 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import  Home  from './pages/home/Home';
 import About from './pages/about/About';
 import Portfolio from './pages/portfolio/Portfolio';
+import { Navbar } from './components/Navbar';
 
 function App() {
   const routes=[
@@ -41,8 +42,9 @@ function App() {
   return (
     
     <div className="App">
-
+          
           <Router>
+          <Navbar /> 
             <Routes>
             
             {displayContent()}

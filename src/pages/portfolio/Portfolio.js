@@ -13,7 +13,7 @@ const Portfolio = () => {
 
     return (
         <div className="portfolio-container">
-            <Navbar />
+         
             <PageTitle ttl1={'my'} ttl2={'portfolio'} ttl3={'works'} />
             <PrjModal/>
             <ProjectGrid />

@@ -7,7 +7,7 @@ import profPic from "../../utils/profile-pic.jpg";
 const Home = () => {
     return (
         <div className="home-container">
-            <Navbar />
+            
             <div className="color-block">
             </div>
             <div className="home-details-container">

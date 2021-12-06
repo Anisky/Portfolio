@@ -6,7 +6,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div className="contact-container">
-            <Navbar />
+            
             <PageTitle ttl1={'get in'} ttl2 ={'touch'} ttl3={'contact'} />
 
             <div className="body-container">

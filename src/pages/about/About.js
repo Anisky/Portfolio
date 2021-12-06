@@ -35,7 +35,7 @@ const About = () => {
     ]
     return (
         <div className="about-container">
-            <Navbar />            
+                       
             <PageTitle ttl1={'about'} ttl2={"me"} ttl3={"resume"} />
             <section className="perso-info">
                 
