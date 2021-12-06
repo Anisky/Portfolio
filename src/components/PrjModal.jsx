@@ -2,9 +2,7 @@ import React from "react";
 import "./PrjModal.css";
 import { useDispatch, useSelector } from "react-redux";
 import { closeModal } from "../store/actions/projectActions";
-import { PageTitle } from "./PageTitle";
-import BioGardX from "../utils/bio-guarden.png";
-import PrimRecruit from "../utils/primRecruit.PNG";
+
 
 export const PrjModal = () => {
   const root = useSelector((state) => state.project);

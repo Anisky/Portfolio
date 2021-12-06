@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import React from 'react'
 import { Navbar } from '../../components/Navbar'
 import { PageTitle } from '../../components/PageTitle'
 import { PrjModal } from '../../components/PrjModal'
 import { ProjectGrid } from '../../components/ProjectGrid'
-import { openModal } from '../../store/actions/projectActions'
 import './Portfolio.css'
 
 const Portfolio = () => {
