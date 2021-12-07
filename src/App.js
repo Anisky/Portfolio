@@ -9,7 +9,7 @@ import { Navbar } from './components/Navbar';
 function App() {
   const routes=[
     { 
-      route:"/",
+      route:"/portfolio",
       page:<Home /> ,
       exact : true,
       key:0
@@ -21,7 +21,7 @@ function App() {
       key:1
     },
     {
-      route:"/portfolio",
+      route:"/",
       page: <Portfolio />,
       exact: true,
       key:2

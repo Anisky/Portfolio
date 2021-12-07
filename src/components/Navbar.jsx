@@ -12,7 +12,7 @@ export const Navbar = () => {
         <ul>
           <li className={""}>
             <Link
-              to="/"
+              to="/potfolio"
               className={selected === 0 ? "nav-active" : ""}
               onClick={() => dispatch(navSelect(0))}
             >
@@ -36,7 +36,7 @@ export const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/portfolio"
+              to="/"
               className={selected === 2 ? "nav-active" : ""}
               onClick={() => dispatch(navSelect(2))}
             >
