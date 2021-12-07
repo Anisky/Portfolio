@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/anisslimatni/static/css/main.fcbfaa4e.chunk.css",
+    "main.js": "/anisslimatni/static/js/main.edb28f13.chunk.js",
+    "main.js.map": "/anisslimatni/static/js/main.edb28f13.chunk.js.map",
+    "runtime-main.js": "/anisslimatni/static/js/runtime-main.c27f3df6.js",
+    "runtime-main.js.map": "/anisslimatni/static/js/runtime-main.c27f3df6.js.map",
+    "static/css/2.6c0f60ba.chunk.css": "/anisslimatni/static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.46d4bce3.chunk.js": "/anisslimatni/static/js/2.46d4bce3.chunk.js",
+    "static/js/2.46d4bce3.chunk.js.map": "/anisslimatni/static/js/2.46d4bce3.chunk.js.map",
+    "static/js/3.574cab9d.chunk.js": "/anisslimatni/static/js/3.574cab9d.chunk.js",
+    "static/js/3.574cab9d.chunk.js.map": "/anisslimatni/static/js/3.574cab9d.chunk.js.map",
+    "index.html": "/anisslimatni/index.html",
+    "static/css/2.6c0f60ba.chunk.css.map": "/anisslimatni/static/css/2.6c0f60ba.chunk.css.map",
+    "static/css/main.fcbfaa4e.chunk.css.map": "/anisslimatni/static/css/main.fcbfaa4e.chunk.css.map",
+    "static/js/2.46d4bce3.chunk.js.LICENSE.txt": "/anisslimatni/static/js/2.46d4bce3.chunk.js.LICENSE.txt",
+    "static/media/bio-guarden.9c348d6f.png": "/anisslimatni/static/media/bio-guarden.9c348d6f.png",
+    "static/media/biogardx-1.eeb71df2.jpg": "/anisslimatni/static/media/biogardx-1.eeb71df2.jpg",
+    "static/media/biogardx-2.d12d1880.jpg": "/anisslimatni/static/media/biogardx-2.d12d1880.jpg",
+    "static/media/biogardx-3.ac2628fa.jpg": "/anisslimatni/static/media/biogardx-3.ac2628fa.jpg",
+    "static/media/biogardx-4.cc2c6cbf.jpg": "/anisslimatni/static/media/biogardx-4.cc2c6cbf.jpg",
+    "static/media/biogardx-5.0d114bbd.jpg": "/anisslimatni/static/media/biogardx-5.0d114bbd.jpg",
+    "static/media/biogardx-6.078d6760.jpg": "/anisslimatni/static/media/biogardx-6.078d6760.jpg",
+    "static/media/garduino.bfd981e6.jpg": "/anisslimatni/static/media/garduino.bfd981e6.jpg",
+    "static/media/primRecruit-1.36538a69.PNG": "/anisslimatni/static/media/primRecruit-1.36538a69.PNG",
+    "static/media/primRecruit-2.b067640c.PNG": "/anisslimatni/static/media/primRecruit-2.b067640c.PNG",
+    "static/media/primRecruit-3.af6c571f.PNG": "/anisslimatni/static/media/primRecruit-3.af6c571f.PNG",
+    "static/media/primRecruit-4.1b9f6932.PNG": "/anisslimatni/static/media/primRecruit-4.1b9f6932.PNG",
+    "static/media/primRecruit.743beda6.PNG": "/anisslimatni/static/media/primRecruit.743beda6.PNG",
+    "static/media/Home.css": "/anisslimatni/static/media/profile-pic.b6604012.jpg",
+    "static/media/qms-1.84028d76.jpg": "/anisslimatni/static/media/qms-1.84028d76.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c27f3df6.js",
+    "static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.46d4bce3.chunk.js",
+    "static/css/main.fcbfaa4e.chunk.css",
+    "static/js/main.edb28f13.chunk.js"
+  ]
+}
