@@ -27,7 +27,7 @@ const Home = () => {
                         </span>
                     </h1>
                     <p className="bio-text">
-                    Innovative front‑end developer with greate experience building and maintaining websitesbui, focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+                    Innovative web developer with greate experience building and maintaining websites, focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
                     </p>
                     <Link to='/about' ><SpecialBtn content={"more about me"} iconClass={'fas fa-arrow-right'} /></Link>
                    
